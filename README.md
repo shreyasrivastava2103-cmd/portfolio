@@ -1,4 +1,5 @@
-# 👋 Hi, I'm Shreya Srivastava  
+Shreya Srivastava  
+https://www.linkedin.com/in/shreya-srivastava1095/
 
 **Recruitment Coordinator | HR Operations Specialist | Talent Acquisition**  
 
@@ -15,21 +16,46 @@ I’m an HR professional based in Bangalore with nearly **4 years of experience*
 
 ---
 
-## 🔹 Professional Experience
-- **Recruitment Coordinator – Procore (via Mindlance)** (2024 – Present)  
-  Enhanced candidate experience scores by 15% and reduced time-to-hire by 10%.  
+# 💼 Work Experience – Shreya Srivastava
 
-- **Associate HR Operations – Cisco (via Randstad)** (2022 – 2024)  
-  Improved onboarding efficiency by 20% and reduced candidate drop-offs by 15%.  
-
-- **Junior Recruiter – Quest Global (Ibhaan)** (2024)  
-  Built targeted pipelines for IT and aviation roles, improving quality by 20%.  
-
-- **Recruitment Coordinator – Grab (via Adecco)** (2021 – 2022)  
-  Reduced time-to-hire by 10% and improved candidate experience ratings by 20%.  
+## Recruitment Coordinator – Procore Technologies (via Mindlance)  
+**2024 – Present | Bangalore**  
+- Managing global interview scheduling across APJC, EMEA, and AMER regions.  
+- Supporting batch hiring (mobile, QA automation, architecture).  
+- Ensuring seamless stakeholder alignment and candidate experience with zero escalations.  
 
 ---
 
+## Associate HR Operations – Cisco (via Randstad India)  
+**2022 – 2024 | Bangalore**  
+- Handled onboarding, offboarding, offer generation, payroll coordination, and background verification.  
+- Maintained data accuracy in Workday HCM and Avature.  
+- Collaborated with APJC recruiters to streamline operations.  
+
+---
+
+## Recruitment Coordinator – Grab (via Adecco)  
+**2021 – 2022 | Bangalore**  
+- Supported high-volume hiring and weekend recruitment drives.  
+- Managed interview logistics, stakeholder communications, and candidate engagement.  
+- Reduced scheduling turnaround time by improving processes.  
+
+---
+
+## Junior Recruiter – Ibhaan Global / Quest Global  
+**2020 – 2021 | Bangalore**  
+- Sourced and screened candidates for aviation & defense clients (Collins Aerospace, Boeing, Honeywell).  
+- Coordinated with vendors and managed candidate pipelines.  
+
+---
+
+## 🌟 Highlights Across Roles
+- Expertise in multi-timezone scheduling and global recruitment coordination.  
+- Strong HR operations foundation: onboarding, payroll, BGV, offboarding.  
+- Skilled in HRIS/ATS tools – Workday, Avature, SmartRecruiters, GoodTime, Zendesk, Smartsheet.  
+- Proven track record of **reducing time-to-hire** and **ensuring compliance**.
+
+----
 ## 🔹 Education
 - **MBA, Human Capital Management** – PES University, Bangalore (2020)  
 - **BBA, HR & Finance** – BIT, Ranchi (2017)  
@@ -37,12 +63,13 @@ I’m an HR professional based in Bangalore with nearly **4 years of experience*
 ---
 
 ## 🔹 Certifications
-- Microsoft Excel (Advanced) – Udemy  
 - People Analytics – Coursera  
 - Naukri Certified Maestro Recruiter  
 - HR & Payroll in India – Udemy  
 - Management Essentials – Harvard Business School Online  
-- AI Dashboard with Power BI – Skill Nation  
+- AI Dashboard with Power BI – Skill Nation 
+- Microsoft Excel (Advanced) – Udemy  
+- 
 
 ---
 
