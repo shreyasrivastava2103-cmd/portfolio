@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shreya Srivastava · HR Portfolio</title>
+  <meta name="description" content="HR Operations & Recruitment portfolio of Shreya Srivastava — Global hiring, HRIS/ATS, stakeholder engagement, analytics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --navy:#1D3557; --sky:#457B9D; --light:#F1FAEE; --charcoal:#2F2F2F; --white:#ffffff;
+      --radius:18px; --shadow:0 10px 30px rgba(0,0,0,.08);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:'Open Sans',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;color:var(--charcoal);background:var(--light)}
+    a{color:var(--sky);text-decoration:none}
+    .container{max-width:1120px;margin:0 auto;padding:24px}
+    /* Header */
+    header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.8);backdrop-filter:saturate(120%) blur(10px);border-bottom:1px solid #e8eef5}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px;color:var(--navy);font-family:Montserrat, sans-serif;font-weight:700}
+    .brand .dot{width:10px;height:10px;border-radius:50%;background:var(--sky)}
+    .nav-links{display:flex;gap:18px;flex-wrap:wrap}
+    .nav-links a{padding:10px 12px;border-radius:10px;font-weight:600;color:var(--navy)}
+    .nav-links a:hover{background:var(--light)}
+    .cta{background:var(--navy);color:var(--white);padding:10px 14px;border-radius:12px;box-shadow:var(--shadow)}
+    .cta:hover{opacity:.95}
+
+    /* Hero */
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center;padding:52px 24px 12px}
+    .card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:28px}
+    h1,h2,h3{font-family:Montserrat, sans-serif;color:var(--navy);margin:0 0 12px}
+    h1{font-size:clamp(28px,4vw,40px)}
+    h2{font-size:clamp(22px,3vw,28px)}
+    p{line-height:1.6;margin:8px 0}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .tag{background:var(--light);border:1px solid #dfe8f2;color:var(--navy);padding:6px 10px;border-radius:999px;font-size:12px;font-weight:600}
+    .kpi{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+    .kpi .bubble{background:#fff;padding:16px;border-radius:16px;box-shadow:var(--shadow);text-align:center}
+    .kpi .num{font-family:Montserrat;font-weight:700;color:var(--navy);font-size:22px}
+
+    /* Sections */
+    section{padding:10px 24px}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:20px}
+    .col-6{grid-column:span 6}
+    .col-12{grid-column:span 12}
+    .list{display:grid;gap:12px}
+    .item{display:flex;gap:12px}
+    .item .dot{min-width:10px;height:10px;border-radius:50%;background:var(--sky);margin-top:10px}
+
+    /* Cards */
+    .feature{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:22px}
+
+    /* Timeline */
+    .timeline{position:relative;padding-left:22px}
+    .timeline::before{content:'';position:absolute;left:8px;top:0;bottom:0;width:2px;background:#d9e6f3}
+    .entry{position:relative;margin:0 0 18px}
+    .entry::before{content:'';position:absolute;left:-2px;top:4px;width:12px;height:12px;background:var(--sky);border:2px solid #fff;border-radius:50%;box-shadow:0 0 0 2px #d9e6f3}
+    .entry h3{margin:0;font-size:18px}
+    .pill{display:inline-block;background:#eef5fb;color:#204466;border:1px solid #d6e6f7;padding:4px 8px;border-radius:999px;font-size:12px;margin:6px 6px 0 0}
+
+    /* Tools grid */
+    .tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px}
+    .tool{background:#fff;border-radius:14px;box-shadow:var(--shadow);padding:14px;text-align:center;font-weight:600;color:var(--navy)}
+
+    /* Footer */
+    footer{padding:40px 24px;color:#eaf0f7;background:var(--navy);margin-top:40px}
+    footer a{color:#eaf0f7}
+
+    /* Responsive */
+    @media (max-width: 900px){
+      .hero{grid-template-columns:1fr}
+      .col-6{grid-column:span 12}
+      nav{gap:8px}
+      .nav-links{display:none}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand"><span class="dot"></span> Shreya Srivastava</div>
+        <div class="nav-links" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#achievements">Highlights</a>
+          <a href="#tools">Tools</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="cta" href="#contact">Let’s Connect</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero container" id="about">
+    <div class="card">
+      <h1>HR Operations & Recruitment Specialist</h1>
+      <p>I’m Shreya, a results-driven Human Resources professional with nearly 4 years of experience in <strong>Recruitment Coordination, HR Operations, and Talent Acquisition</strong>, supporting global teams across <strong>APJC, EMEA, and AMER</strong> regions. I build seamless hiring experiences, strong stakeholder partnerships, and compliant, scalable people processes.</p>
+      <div class="tags">
+        <span class="tag">Global Hiring</span>
+        <span class="tag">Onboarding → Offboarding</span>
+        <span class="tag">Offer Management</span>
+        <span class="tag">Payroll Coordination</span>
+        <span class="tag">BGV & Compliance</span>
+        <span class="tag">Workday · Avature · SmartRecruiters</span>
+        <span class="tag">GoodTime · Zendesk · Smartsheet</span>
+        <span class="tag">Excel · Power BI</span>
+      </div>
+      <div class="kpi" aria-label="Key stats">
+        <div class="bubble"><div class="num">3 Regions</div><div>APJC · EMEA · AMER</div></div>
+        <div class="bubble"><div class="num">500+ Hires</div><div>Supported annually</div></div>
+        <div class="bubble"><div class="num">100%+</div><div>Compliance focus</div></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Profile Summary</h2>
+      <p>Experienced across the end-to-end employee lifecycle: <strong>onboarding, offboarding, offer generation, background verification, payroll coordination</strong> and HRIS data accuracy. Adept at high‑volume, multi‑timezone scheduling with <strong>zero escalations</strong>. Passionate about continuous improvement and people‑first culture.</p>
+      <p style="font-style:italic;color:#27496d">“I thrive at the intersection of people and process.”</p>
+      <div class="tags">
+        <span class="tag">Stakeholder & Candidate Experience</span>
+        <span class="tag">Process Improvement</span>
+        <span class="tag">HR Analytics & Reporting</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="container" id="skills">
+    <div class="grid">
+      <div class="col-6 feature">
+        <h2>Core Skills</h2>
+        <div class="list">
+          <div class="item"><span class="dot"></span><div><strong>Global Recruitment Coordination</strong>: high‑volume & batch hiring, multi‑timezone scheduling, panel alignment, feedback loops.</div></div>
+          <div class="item"><span class="dot"></span><div><strong>HR Operations</strong>: onboarding, offboarding, offer management, BGV, payroll coordination, policy & compliance.</div></div>
+          <div class="item"><span class="dot"></span><div><strong>Stakeholder & Candidate Engagement</strong>: proactive communications, logistics excellence, candidate journey.</div></div>
+          <div class="item"><span class="dot"></span><div><strong>HR Analytics</strong>: trackers, dashboards, and reports using Excel & Power BI to improve efficiency.</div></div>
+          <div class="item"><span class="dot"></span><div><strong>Continuous Improvement</strong>: process re‑design for scalability and people‑first outcomes.</div></div>
+        </div>
+      </div>
+      <div class="col-6 feature">
+        <h2>Top 5 Focus Areas</h2>
+        <div class="tags">
+          <span class="tag">Recruitment Coordination</span>
+          <span class="tag">HR Operations (E2E)</span>
+          <span class="tag">Candidate Experience</span>
+          <span class="tag">HRIS & ATS Tools</span>
+          <span class="tag">HR Analytics & Reporting</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE / TIMELINE -->
+  <section class="container" id="experience">
+    <div class="feature">
+      <h2>Experience Timeline</h2>
+      <div class="timeline">
+        <div class="entry">
+          <h3>Recruitment Coordinator · Procore Technologies <span class="pill">2024 – Present</span></h3>
+          <p>Managed global interview scheduling across APJC, EMEA, AMER. Supported batch hiring (mobile, QA automation, architecture) and ensured a smooth candidate & stakeholder experience with zero escalations.</p>
+        </div>
+        <div class="entry">
+          <h3>HR Operations Associate · Cisco <span class="pill">2022 – 2024</span></h3>
+          <p>Owned onboarding, offer generation, payroll support, offboarding, and background verification for APJC. Maintained 100% <abbr title="Human Capital Management">Workday HCM</abbr> & Avature data accuracy and collaborated closely with theatre recruiters.</p>
+        </div>
+        <div class="entry">
+          <h3>Recruitment Coordinator · Grab <span class="pill">2021 – 2022</span></h3>
+          <p>Drove high‑volume scheduling and weekend hiring drives. Improved scheduling strategies and reduced turnaround time while aligning recruiters, hiring managers, and leadership.</p>
+        </div>
+        <div class="entry">
+          <h3>Junior Recruiter · Ibhaan / Quest Global <span class="pill">2022</span></h3>
+          <p>Sourced & screened niche candidates for aviation & defense (Collins Aerospace, Boeing, Honeywell). Managed vendor partnerships and pipelines.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="container" id="achievements">
+    <div class="grid">
+      <div class="col-6 feature">
+        <h2>Key Highlights</h2>
+        <ul>
+          <li>Reduced interview scheduling turnaround time by <strong>30%</strong> at Grab.</li>
+          <li>Supported <strong>500+ hires</strong> annually at Cisco with zero escalations.</li>
+          <li>Coordinated global hiring across <strong>3 regions</strong> at Procore.</li>
+          <li>Maintained <strong>100% compliance</strong> in onboarding & offboarding.</li>
+        </ul>
+      </div>
+      <div class="col-6 feature">
+        <h2>Education & Certifications</h2>
+        <ul>
+          <li>Master’s in Human Resources Capital – PES University</li>
+          <li>Power BI (Certification)</li>
+          <li>Excel Advanced (Dashboards, PivotTables, VLOOKUP)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLS -->
+  <section class="container" id="tools">
+    <div class="feature">
+      <h2>Tools & Systems</h2>
+      <div class="tools">
+        <div class="tool">Workday HCM</div>
+        <div class="tool">Avature CRM</div>
+        <div class="tool">SmartRecruiters</div>
+        <div class="tool">GoodTime</div>
+        <div class="tool">Zendesk</div>
+        <div class="tool">Remedyforce</div>
+        <div class="tool">Smartsheet</div>
+        <div class="tool">Excel · Power BI</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="container" id="contact">
+    <div class="feature">
+      <h2>Let’s Connect</h2>
+      <p>Open to opportunities across Bangalore, Delhi NCR, Gurgaon, and Noida.</p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a><br>
+        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shreya-srivastava1095/" target="_blank" rel="noopener">linkedin.com/in/shreya-srivastava1095</a>
+      </p>
+      <div class="tags">
+        <a class="cta" href="#about">Back to top ↑</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Shreya Srivastava • Built with HTML & CSS • Color palette: Navy & Sky
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
