@@ -86,7 +86,7 @@ I’m an HR professional based in Bangalore with nearly **4 years of experience*
 
 ## 📫 Let’s Connect
 - **LinkedIn:** [linkedin.com/in/shreya-srivastava1095](https://www.linkedin.com/in/shreya-srivastava1095)  
-- **Email:** shreya@example.com  
+- **Email:** shreyasrivastava2103@gmail.com 
 
 ---
 ✨ Passionate about building people-first processes and delivering seamless hiring experiences across global teams.
